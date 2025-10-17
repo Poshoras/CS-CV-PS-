@@ -31,6 +31,12 @@ Folklore Analysis with NLP and LLMs
 与运筹团队合作进行库存优化，引入基于DSI的惩罚机制平衡供需，调用Gurobi求解器实现最优生产调度，有效防止短缺与过度生产，降低约15%的库存成本。
 
 
+\item Imported Python (including libraries such as pandas, NumPy, email, smtplib, etc.) to clean, categorize, and restructure Excel data. The system sent over 500 personalized reconciliation emails, covered chemical delivery and cost calculations, with batch archiving and anomaly monitoring, improving efficiency and data accuracy.
+    \item Automated the collection of commodity data from Kpler via APIs.Built and optimized the database using iFind and Mysteel plug-ins to streamline the daily reporting workflow.
+    \item Participated in the compilation of the China Futures Industry Association's textbook: Analyzed global styrene supply-demand dynamics using upstream inventory and downstream data; applied time-series analysis to model consumption seasonality and growth. Delivered insights across 14 research themes.
+
+
+等着云云网络。
 # PS
 1.转专业的意愿起点？
 2.专业能力是否足够（CS本科课程中一般要求什么？）
