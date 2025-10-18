@@ -31,12 +31,19 @@ Folklore Analysis with NLP and LLMs
 与运筹团队合作进行库存优化，引入基于DSI的惩罚机制平衡供需，调用Gurobi求解器实现最优生产调度，有效防止短缺与过度生产，降低约15%的库存成本。
 
 
+1. 设计并实现基于机器学习的欺诈交易检测架构，采用XGBoost，通过特征重要性分析优化42个风险维度，使欺诈交易识别准确率达到96.8%，误报率降低35%
+2. 协助引入LangChain代理架构，通过@Tool注解集成多源风险数据查询工具，实现黑名单验证、行为模式匹配等功能的自动化调用，复杂欺诈模式识别效率提升60%
+3. 设计欺诈模式分析RAG系统，基于Elasticsearch构建欺诈案例知识库，通过Pinecone数据库向量化相似检索实现历史欺诈模式智能匹配，新型欺诈模式发现速度提升4倍，专家审核工作量减少70%
+4.配合团队构建“ML模型量化评分 + LLM智能定性分析”的双重判断架构。利用XGBoost与深度学习模型对交易进行毫秒级风险量化评分，对于中高风险交易，自动触发LangChain代理调用LLM进行交易上下文、行为模式的深度推理与定性研判，使整体决策准确率提升至98.5%
+
+
+
 \item Imported Python (including libraries such as pandas, NumPy, email, smtplib, etc.) to clean, categorize, and restructure Excel data. The system sent over 500 personalized reconciliation emails, covered chemical delivery and cost calculations, with batch archiving and anomaly monitoring, improving efficiency and data accuracy.
-    \item Automated the collection of commodity data from Kpler via APIs.Built and optimized the database using iFind and Mysteel plug-ins to streamline the daily reporting workflow.
-    \item Participated in the compilation of the China Futures Industry Association's textbook: Analyzed global styrene supply-demand dynamics using upstream inventory and downstream data; applied time-series analysis to model consumption seasonality and growth. Delivered insights across 14 research themes.
+\item Automated the collection of commodity data from Kpler via APIs.Built and optimized the database using iFind and Mysteel plug-ins to streamline the daily reporting workflow.
+\item Participated in the compilation of the China Futures Industry Association's textbook: Analyzed global styrene supply-demand dynamics using upstream inventory and downstream data; applied time-series analysis to model consumption seasonality and growth. Delivered insights across 14 research themes.
 
 
-等着云云网络。
+
 # PS
 1.转专业的意愿起点？
 2.专业能力是否足够（CS本科课程中一般要求什么？）
@@ -54,9 +61,9 @@ Folklore Analysis with NLP and LLMs
 
 有了一个高难度的开头，自学似乎成为我这几年的常态，我补足了C++的课程，CSDN成为我最多访问的网站。恰逢此时学院开设大数据专业，我便选择辅修机器学习，建模优化，数据结构等课程，令我印象最深的是，数据结构课程中讲到的Dijkstra算法正是我大一做项目时所需要的，但就是这样高效知名的算法，我在第一次竟然足足写了80多行才完成，我意识到了系统学习的重要性。
 
-有了算法和编程的基础，我在大三这一年便义无反顾的将精力转移，我刷完了李宏毅老师的大部分视频，从深度学习开始，花费了一学期的时间，学习了大语言模型相关的知识（Agent，Prompt Engineering，Transformer）。而后我参加了学院中的科研项目，主导利用NLP分词技术和RAG来对神话文本编码分析，并进入Goodyear担任AI科学家的实习，主导了五个工作流的开发，意料之外的是，虽然是技术部门，但我格外适应与我的同事和老师们沟通，每天调研用户需求，调整参数与提示词，我在其中乐此不疲，获得了强烈的成就感。
+有了算法和编程的基础，我在大三这一年便义无反顾的将精力转移，我刷完了李宏毅老师的大部分视频，从深度学习开始，花费了一学期的时间，学习了大语言模型相关的知识（Agent，Prompt Engineering，Transformer）。而后我参加了学院中的科研项目，主导利用NLP分词技术和RAG来对神话文本编码分析，并进入Goodyear担任AI科学家的实习，主导了三个自动化工作流的开发，意料之外的是，虽然是技术部门，但我格外适应与我的同事和老师们沟通，每天调研B端用户需求，调整参数与提示词，我在其中乐此不疲，获得了强烈的成就感。
 
-在我没有真正的接触到计算机这门学科之前，我认为它是一门孤立的，门槛极高的专业。但是在深入了解了算法和原理组成之后，我意识到计算机只有和具体的业务场景搭配起来才能发挥其“智能化”的优势。我的家乡是一个五线城市，防诈骗意识远不及大城市，在北方实验室实习的时候，团队与家乡的银行合作开发反诈骗系统，我利用数据结构课上学到的知识成功帮助团队解决了这个问题，这更加坚定了我在未来要利用计算机能力回馈社会，建设家乡的决心。
+在我没有真正的接触到计算机这门学科之前，我认为它是一门孤立的，门槛极高的专业。但是在深入了解了算法和原理组成之后，我意识到计算机只有和具体的业务场景搭配起来才能发挥其“智能化”的优势。我的家乡是一个五线城市，防诈骗意识远不及大城市，在北方实验室实习的时候，团队与家乡的银行合作改进反诈骗算法，我利用项目中积累的RAG，Langchain架构以及XGboost等大模型知识成功将欺诈识别误报率降低了35%，这更加坚定了我在未来要利用计算机能力回馈社会，建设家乡的决心。
 
 转专业对我而言，是兴趣与能力的自然延伸。金融带给我严谨的数据分析能力和商业洞见，而计算机科学技能使我能够将这些能力以算法和程序实现，解决现实问题。我放弃了保研的机会来到香港，是为了自己的热爱与梦想，我厌倦空洞的直觉与调研，更希望用科技与严谨的工作流程充填我的职业生涯与人生。香港中文大学的计算机科学项目是我心目中亚洲最顶尖的学术殿堂。我希望在这里夯实核心理论、深化工程实践，并在未来将计算机科学能力应用于创新和社会价值创造。
 
